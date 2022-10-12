@@ -12,6 +12,10 @@ public class PrintEdition {
         this.year = year;
     }
 
+    public void take(){
+        System.out.printf("You took print edition %s\n", title);
+    }
+
     public String getTitle() {
         return title;
     }
