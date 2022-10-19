@@ -55,4 +55,15 @@ public class PrintEdition {
     public void setYear(int year) {
         this.year = year;
     }
+
+    @Override
+    public String toString() {
+        return "PrintEdition{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", genre='" + genre + '\'' +
+                ", pages=" + pages +
+                ", year=" + year +
+                '}';
+    }
 }
